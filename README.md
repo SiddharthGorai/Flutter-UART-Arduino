@@ -1,16 +1,3 @@
-# prodancy_app
+# UART Communication Android App with Arduino
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This project demonstrates real-time **UART serial communication** between an Android application and an Arduino device via USB. The Android app sends a specific command (`"A"`) to the Arduino, which then processes the command and sends back a confirmation response (`"received"`). The app shows a success notification and navigates to a home screen upon confirmation.
