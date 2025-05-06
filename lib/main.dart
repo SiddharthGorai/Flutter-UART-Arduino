@@ -126,7 +126,7 @@ class _MyAppState extends State<MyApp> {
               ),
               SizedBox(height: 20),
               devices.isEmpty
-                  ? Text("No devices found.")
+                  ? Text("No devices found")
                   : Container(
                       height: 150,
                       width: 300,
