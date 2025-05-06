@@ -9,4 +9,3 @@ This project demonstrates **real-time UART serial communication** between an And
 - Arduino processes the command and returns a response
 - Built-in LED on Arduino turns **ON** only when `"A"` is received
 - App displays a **"Communication Successful"** notification upon receiving a valid response
-- Automatic navigation back to the home screen after successful communication
